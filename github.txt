@@ -21,3 +21,4 @@ If gpg-agent is not running you can start it with this command
 gpg-agent --daemon
 gpg
 gpg
+gpg
