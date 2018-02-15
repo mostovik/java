@@ -22,3 +22,5 @@ gpg-agent --daemon
 gpg
 gpg
 gpg
+gpg
+gpg
