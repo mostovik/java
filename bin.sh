@@ -4,5 +4,5 @@ git add -A
 #goes
 #here
 #EOF
-git commit -m $'first line\nsecond line'
+git commit -m 'first line\second line'
 git push
