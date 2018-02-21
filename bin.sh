@@ -4,5 +4,5 @@ git add -A
 #goes
 #here
 #EOF
-git commit -m 'first line\second line'
+git commit -m "printf 'a\na'"
 git push
