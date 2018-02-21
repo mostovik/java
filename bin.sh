@@ -1,3 +1,3 @@
 git add -A
-git commit -S -m "a<br>a"
+git commit -S -m "$(echo alan\nmorais)"
 git push
