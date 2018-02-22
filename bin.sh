@@ -4,5 +4,5 @@ git add -A
 #goes
 #here
 #EOF
-git commit -m "`for i in {1..10..1};do echo $i;done;`"
+git commit -m "`for i in seq -s"," 1 100;do echo $i;done;`"
 git push
