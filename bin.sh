@@ -4,5 +4,5 @@ git add -A
 #goes
 #here
 #EOF
-git commit -m "printf 'a\na'"
+git commit -m "`for i in {1..10..1};do echo $i;done;`"
 git push
