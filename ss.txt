@@ -1,0 +1,27 @@
+git config --global credential.helper 'cache --timeout 28800
+
+
+
+
+
+
+
+Make gpg remember your passphrase (tricky)
+
+To make it remember your password, you can use gpg-agent
+
+Edit your ~/.gnupg/gpg-agent.conf file and paste these lines
+
+default-cache-ttl 28800
+max-cache-ttl 28800
+28800 seconds means 8 hours
+
+If gpg-agent is not running you can start it with this command
+
+gpg-agent --daemon
+gpg
+gpg
+gpg
+gpg
+gpg
+gpg
